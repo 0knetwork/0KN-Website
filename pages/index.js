@@ -46,8 +46,8 @@ export default function Home() {
             href='/'
           >
             <Image
-              src='/0KN_LOGO.png'
-              alt='0KN Logo'
+              src='/0_LOGO.png'
+              alt='0 Logo'
               className=''
               width={100}
               height={24}
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
         <div className='flex justify-center'>
           <a
-            href='https://twitter.com/0Knowledge_net'
+            href='#'
             target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
@@ -65,7 +65,7 @@ export default function Home() {
             <Image src='/icons/twitter.svg' width={40} height={40} />
           </a>
           <a
-            href='https://medium.com/@0knowledgee'
+            href='#'
             target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
@@ -73,7 +73,7 @@ export default function Home() {
             <Image src='/icons/medium.svg' width={40} height={40} />
           </a>
           <a
-            href='https://discord.gg/xx9QywFz'
+            href='#'
             target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
@@ -139,7 +139,7 @@ export default function Home() {
                 DECENTRALIZED NETWORK
               </h4>
               <p>
-                0KN is powered by a decentralised network of staked servers.
+                0 is powered by a decentralised network of staked servers.
                 Nobody can shut it down. Nobody can spy on you.
               </p>
             </div>
@@ -148,7 +148,7 @@ export default function Home() {
                 PRIVATE APPLICATIONS
               </h4>
               <p>
-                Build truly private applications that utilize 0KNs
+                Build truly private applications that utilize 0s
                 metadata-private anonymous broadcast with powerful cryptographic
                 security guarantees
               </p>
@@ -164,7 +164,7 @@ export default function Home() {
           <div className=' px-8 mb-12 lg:mb-0'>
             <div className='flex flex-col mb-4'>
               <h4 className='mb-2 text-lg font-semibold tracking-wider'>
-                HORIZONTAL SCALABILITY
+                SCALABLE
               </h4>
               <p>
                 The network has the ability to increase throughput with the
@@ -173,14 +173,11 @@ export default function Home() {
             </div>
             <div className='flex flex-col mb-4'>
               <h4 className='mb-2 text-lg font-semibold tracking-wider'>
-                DECENTRALIZED NETWORK
+                Rewards
               </h4>
-              <p>
-                Lokinet is powered by a decentralised network of staked nodes.
-                Nobody can shut it down. Nobody can spy on you.
-              </p>
+              <p>Stake to power the network and get rewarded.</p>
             </div>
-            <div className='flex flex-col mb-3'>
+            {/* <div className='flex flex-col mb-3'>
               <h4 className='mb-2 text-lg font-semibold tracking-wider'>
                 DECENTRALIZED NETWORK
               </h4>
@@ -188,7 +185,7 @@ export default function Home() {
                 Lokinet is powered by a decentralised network of staked nodes.
                 Nobody can shut it down. Nobody can spy on you.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className='order-first lg:order-last'>
@@ -203,8 +200,8 @@ export default function Home() {
             href='/'
           >
             <Image
-              src='/0KN_LOGO.png'
-              alt='0KN Logo'
+              src='/0_LOGO.png'
+              alt='0 Logo'
               className=''
               width={99}
               height={24}
@@ -214,7 +211,7 @@ export default function Home() {
         </div>
         <div className='flex justify-center'>
           <a
-            href='https://twitter.com/0Knowledge_net'
+            href='#'
             target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
@@ -222,7 +219,7 @@ export default function Home() {
             <Image src='/icons/twitter.svg' width={40} height={40} />
           </a>
           <a
-            href='https://medium.com/@0knowledgee'
+            href='#'
             target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
@@ -230,7 +227,7 @@ export default function Home() {
             <Image src='/icons/medium.svg' width={40} height={40} />
           </a>
           <a
-            href='https://discord.gg/xx9QywFz'
+            href='#'
             target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
