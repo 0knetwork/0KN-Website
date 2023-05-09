@@ -5,6 +5,9 @@ import net1 from "../public/net1.json";
 import net2 from "../public/net2.json";
 import Lottie from "react-lottie";
 import { Inter, IBM_Plex_Mono } from "next/font/google";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const inter = Inter({ subsets: ["latin"] });
 const ibm = IBM_Plex_Mono({ subsets: ["latin"], weight: "400" });
@@ -36,9 +39,16 @@ const defaultOptions2 = {
   }
 };
 
+const notify = () =>
+  toast.success("Social links will be replaced soon...", {
+    icon: "🚀",
+    theme: "dark"
+  });
+
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-between'>
+      <ToastContainer />
       <div className='z-10 w-full max-w-6xl items-center justify-between font-mono text-sm lg:flex'>
         <div className='flex w-full items-end justify-center lg:static lg:h-auto lg:w-auto lg:bg-none'>
           <a
@@ -58,27 +68,42 @@ export default function Home() {
         <div className='flex justify-center'>
           <a
             href='#'
-            target='_blank'
+            // target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
           >
-            <Image src='/icons/twitter.svg' width={40} height={40} />
+            <Image
+              onClick={notify}
+              src='/icons/twitter.svg'
+              width={40}
+              height={40}
+            />
           </a>
           <a
             href='#'
-            target='_blank'
+            // target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
           >
-            <Image src='/icons/medium.svg' width={40} height={40} />
+            <Image
+              onClick={notify}
+              src='/icons/medium.svg'
+              width={40}
+              height={40}
+            />
           </a>
           <a
             href='#'
-            target='_blank'
+            // target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
           >
-            <Image src='/icons/discord.svg' width={40} height={40} />
+            <Image
+              onClick={notify}
+              src='/icons/discord.svg'
+              width={40}
+              height={40}
+            />
           </a>
         </div>
       </div>
