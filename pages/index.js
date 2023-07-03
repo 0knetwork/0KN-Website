@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 import blockchain from "../public/blockchain.json";
 import net1 from "../public/net1.json";
 import net2 from "../public/net2.json";
@@ -56,7 +57,7 @@ export default function Home() {
             href='/'
           >
             <Image
-              src='/0_LOGO.png'
+              src='/0KN_LOGO.png'
               alt='0 Logo'
               className=''
               width={100}
@@ -128,13 +129,19 @@ export default function Home() {
             <h3 className='text-xl text-green-300 ml-3'>Get rewarded</h3>
           </div>
           <a
-            href='#'
+            href='https://000z.gitbook.io/0/'
             className=' mt-11 ml-2 inline-block text-lg text-green-400 rounded border-2 border-green-300 py-3 px-28'
             target='_blank'
             rel='noopener noreferrer'
           >
             Docs
           </a>
+          <Link
+            className=' mt-11 ml-2 inline-block text-lg text-green-400 rounded border-2 border-green-300 py-3 px-20'
+            href='0KN-Litepaper.pdf'
+          >
+            Litepaper
+          </Link>
         </div>
         <div className='order-first lg:order-last'>
           <Lottie options={defaultOptions} isClickToPauseDisabled />
@@ -225,7 +232,7 @@ export default function Home() {
             href='/'
           >
             <Image
-              src='/0_LOGO.png'
+              src='/0KN_LOGO.png'
               alt='0 Logo'
               className=''
               width={99}
