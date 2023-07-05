@@ -41,7 +41,7 @@ const defaultOptions2 = {
 };
 
 const notify = () =>
-  toast.success("Social links will be replaced soon...", {
+  toast.success("Coming soon...", {
     icon: "🚀",
     theme: "dark"
   });
@@ -68,30 +68,20 @@ export default function Home() {
         </div>
         <div className='flex justify-center'>
           <a
-            href='#'
-            // target='_blank'
+            href='https://twitter.com/0Knowledge_net'
+            target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
           >
-            <Image
-              onClick={notify}
-              src='/icons/twitter.svg'
-              width={40}
-              height={40}
-            />
+            <Image src='/icons/twitter.svg' width={40} height={40} />
           </a>
           <a
-            href='#'
-            // target='_blank'
+            href='https://medium.com/@0knowledgee'
+            target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
           >
-            <Image
-              onClick={notify}
-              src='/icons/medium.svg'
-              width={40}
-              height={40}
-            />
+            <Image src='/icons/medium.svg' width={40} height={40} />
           </a>
           <a
             href='#'
@@ -171,7 +161,7 @@ export default function Home() {
                 DECENTRALIZED NETWORK
               </h4>
               <p>
-                0 is powered by a decentralised network of staked servers.
+                0KN is powered by a decentralised network of staked servers.
                 Nobody can shut it down. Nobody can spy on you.
               </p>
             </div>
@@ -180,7 +170,7 @@ export default function Home() {
                 PRIVATE APPLICATIONS
               </h4>
               <p>
-                Build truly private applications that utilize 0s
+                Build truly private applications that utilize 0KNs
                 metadata-private anonymous broadcast with powerful cryptographic
                 security guarantees
               </p>
@@ -225,6 +215,19 @@ export default function Home() {
         </div>
       </div>
       <span className='h-0.5 w-full max-w-6xl bg-green-400'></span>
+      <p className=' mt-10'>
+        <a
+          href='https://assuredefi.com/projects/0-knowledge-network/'
+          target='_blank'
+        >
+          <img
+            src='https://assuredefi.com/wp-content/uploads/2023/03/assure-banners-icon-yellow-transparent.png'
+            target='_blank'
+            alt='Proudly Verified By Assure DeFi™'
+            width='349px'
+          />
+        </a>
+      </p>
       <div className='z-10 w-full max-w-6xl items-center justify-between font-mono text-sm lg:flex pb-6 lg:pb-0'>
         <div className='flex w-full items-end justify-center lg:static lg:h-auto lg:w-auto lg:bg-none'>
           <a
@@ -243,7 +246,7 @@ export default function Home() {
         </div>
         <div className='flex justify-center'>
           <a
-            href='#'
+            href='https://twitter.com/0Knowledge_net'
             target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
@@ -251,7 +254,7 @@ export default function Home() {
             <Image src='/icons/twitter.svg' width={40} height={40} />
           </a>
           <a
-            href='#'
+            href='https://medium.com/@0knowledgee'
             target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
@@ -260,11 +263,16 @@ export default function Home() {
           </a>
           <a
             href='#'
-            target='_blank'
+            // target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
           >
-            <Image src='/icons/discord.svg' width={40} height={40} />
+            <Image
+              onClick={notify}
+              src='/icons/discord.svg'
+              width={40}
+              height={40}
+            />
           </a>
         </div>
       </div>
