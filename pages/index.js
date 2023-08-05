@@ -84,17 +84,12 @@ export default function Home() {
             <Image src='/icons/medium.svg' width={40} height={40} />
           </a>
           <a
-            href='#'
-            // target='_blank'
+            href='https://t.me/Entry_Portal_0KN'
+            target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
           >
-            <Image
-              onClick={notify}
-              src='/icons/discord.svg'
-              width={40}
-              height={40}
-            />
+            <Image src='/icons/Telegram.svg' width={40} height={40} />
           </a>
         </div>
       </div>
@@ -262,17 +257,12 @@ export default function Home() {
             <Image src='/icons/medium.svg' width={40} height={40} />
           </a>
           <a
-            href='#'
-            // target='_blank'
+            href='https://t.me/Entry_Portal_0KN'
+            target='_blank'
             rel='noopener noreferrer'
             className='mx-3'
           >
-            <Image
-              onClick={notify}
-              src='/icons/discord.svg'
-              width={40}
-              height={40}
-            />
+            <Image src='/icons/Telegram.svg' width={40} height={40} />
           </a>
         </div>
       </div>
