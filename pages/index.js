@@ -261,6 +261,10 @@ export default function Home() {
           />
         </a>
       </div>
+      <span className='h-0.5 w-full max-w-6xl bg-green-400 mt-20'></span>
+      <h1 className=' text-xl font-semibold text-green-300 mt-0 lg:mt-24 mb-10'>
+        CA: 0x4594CFfbFc09BC5e7eCF1C2e1C1e24F0f7D29036
+      </h1>
       <div className='z-10 w-full max-w-6xl items-center justify-between font-mono text-sm lg:flex pb-6 lg:pb-0'>
         <div className='flex w-full items-end justify-center lg:static lg:h-auto lg:w-auto lg:bg-none'>
           <a
