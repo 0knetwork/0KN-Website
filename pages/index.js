@@ -217,50 +217,7 @@ export default function Home() {
           <Lottie options={defaultOptions1} isClickToPauseDisabled />
         </div>
       </div>
-      <span className='h-0.5 w-full max-w-6xl bg-green-400'></span>
-      <h1 className='text-4xl font-semibold text-green-300 mt-0 lg:mt-24 mb-10'>
-        PARTNERS
-      </h1>
-      <div className=' mt-10 flex flex-wrap justify-center items-center'>
-        <a
-          href='https://assuredefi.com/projects/0-knowledge-network/'
-          target='_blank'
-          className=' mx-2'
-        >
-          <img
-            src='https://assuredefi.com/wp-content/uploads/2023/03/assure-banners-icon-yellow-transparent.png'
-            target='_blank'
-            alt='Proudly Verified By Assure DeFi™'
-            width='300px'
-          />
-        </a>
-        <a
-          href='https://www.pinksale.finance/'
-          target='_blank'
-          className=' mx-2'
-        >
-          <Image
-            src='/pinksale.webp'
-            alt='0 Logo'
-            className=' rounded-xl'
-            width={250}
-            height={24}
-            priority
-          />
-        </a>
-        <a
-          href='https://www.dexview.com/'
-          target='_blank'
-          className=' mt-4 mx-2'
-        >
-          <img
-            src='https://dexview.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fabb35737-bbc2-482d-a8dd-5e0f0f013c9c%2Fdexview-white-text-transparent.png?id=66a5b7d6-5361-41bd-a09e-6b8565589d77&table=block&spaceId=f2f78fd3-79ff-4ce0-bc9c-ba15ee5eba0f&width=2000&userId=&cache=v2'
-            target='_blank'
-            alt='Dexview'
-            width='300px'
-          />
-        </a>
-      </div>
+
       <span className='h-0.5 w-full max-w-6xl bg-green-400 mt-20'></span>
       <h1 className=' text-xl font-semibold text-green-300 mt-0 lg:mt-24 mb-10'>
         CA: 0x4594CFfbFc09BC5e7eCF1C2e1C1e24F0f7D29036
