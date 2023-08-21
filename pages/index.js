@@ -131,7 +131,7 @@ export default function Home() {
           </a>
           <Link
             className=' mt-11 ml-2 inline-block text-lg text-green-400 rounded border-2 border-green-300 py-3 px-20'
-            href='0KN-Litepaper.pdf'
+            href='0KN_Litepaper.pdf'
           >
             Litepaper
           </Link>
